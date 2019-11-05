@@ -14,3 +14,6 @@
 Route::get('/', function () {
     return view('welcome');
 });
+Route::post('/add','pro@save');
+  // return "done";
+Route::get('/show', 'pro@index');
